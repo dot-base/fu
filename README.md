@@ -1,27 +1,14 @@
-# Nuxt 3 Minimal Starter
-* add menu
-* add component library
-* add story example
-* add graph lubrary?
+# Dotbase FU Challenge
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Prerequisites
+You will need [Nodejs](https://nodejs.org/en) for this project.
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -29,51 +16,17 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Code Organization
+* `components`: Add your custom UI components here
+* `pages`: Add your custom views here. Most probably you will only need the `dashboard.vue` file
 
-Build the application for production:
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Technology used
+* [Typescript](https://www.typescriptlang.org/): Language
+* [Nuxt](https://nuxt.com/docs/getting-started/introduction): Vue app framework
+* [Vue 3 (Composition API)](https://vuejs.org/guide/introduction.html): Frontend Library
+* [Nuxt UI](https://ui.nuxt.com/getting-started): UI library for easily scaffolding project
+* [TailwindCSS](https://tailwindcss.com/): Easy utility based CSS styling
