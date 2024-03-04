@@ -19,6 +19,10 @@ Start the development server on `http://localhost:3000`:
 npm run dev
 ```
 
+## UI components
+For faster scaffolding of the UI, please use the installed Nuxt UI components.
+You can see the list of avaible components in [their documentation](https://ui.nuxt.com/getting-started).
+
 ## Code Organization
 * `components`: Add your custom UI components here
 * `pages`: Add your custom views here. Most probably you will only need the `dashboard.vue` file
