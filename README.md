@@ -26,6 +26,7 @@ You can see the list of avaible components in [their documentation](https://ui.n
 ## Code Organization
 * `components`: Add your custom UI components here
 * `pages`: Add your custom views here. Most probably you will only need the `dashboard.vue` file
+* `server/api`: Add your custom data models with mock data here. The API can be consumed in the views with `useFetch("/api/your-file-name")`. See the `dashboard.vue` and `observation.ts` files for reference.
 
 
 ## Technology used
