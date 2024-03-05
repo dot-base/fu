@@ -1,5 +1,7 @@
 # Dotbase FU Challenge
 
+Dear users, in this repository we welcome you to the third challenge of our [dotbase](dotbase.org) FU Case Study. During this challenge we encourage you to implement up to three KPI visulalisations. These visualisations help the hospital management.
+
 ## Prerequisites
 You will need [Nodejs](https://nodejs.org/en) for this project.
 
